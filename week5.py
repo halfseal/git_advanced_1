@@ -14,7 +14,7 @@ def even_list(int_list: List[int]) -> List[int]:
     for a in int_list:
         if a % 2 == 0:
             ans.append(a)
-    pass
+    return ans
 
 
 # Skeleton code for sum_of_squares_of_even
