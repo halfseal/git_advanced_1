@@ -23,10 +23,11 @@ def sum_of_squares_of_even(even_int_list: List[int]) -> int:
     Returns:
         The sum of the squares of all even numbers in the list.
     """
-    ans = []
+    ans = 0
     for a in even_int_list:
-        ans.append(a**2)
+        ans += a
     return ans
+
 
 # Main function
 def main():
