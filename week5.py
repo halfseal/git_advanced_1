@@ -25,7 +25,7 @@ def sum_of_squares_of_even(even_int_list: List[int]) -> int:
     """
     ans = 0
     for a in even_int_list:
-        ans += a
+        ans += a**2
     return ans
 
 
